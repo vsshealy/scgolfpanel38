@@ -1,0 +1,18 @@
+/**
+ * sass/objects/tables/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.26)
+ * @copyright 2024 (2024.01.26)
+**/
+
+// SETTINGS
+    $table-header-background: $color-scgolfpanel-brown-0;
+    $table-subheader-background: $color-scgolfpanel-beige-0;
+    $table-row-odd-background: $color-grayscale-light-11;
+    $table-row-even-background: $color-grayscale-light-9;
+    $table-border: $table-header-background;
+    $table-cell-padding: $padding-xxs;
+
+// @IMPORT | STYLES
+    @import "style";

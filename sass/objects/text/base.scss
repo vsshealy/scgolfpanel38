@@ -1,0 +1,41 @@
+/**
+ * sass/objects/text/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// FONT STACKS
+    $font-sans: Roboto, Helvetica, Arial, sans-serif;
+    $font-serif: Merriweather, Georgia, serif;
+
+// FONT SIZES
+    $font-size-base: 1.00rem;
+    $font-size-xs: 14px;
+    $font-size-sm: 14px;
+    $font-size-md: 14px;
+    $font-size-lg: 14px;
+    $font-size-xl: 16px;
+    $font-size-xxl: 16px;
+
+// COLORS
+    $text-color-normal: $color-grayscale-dark-6;
+    $text-color-alt: $color-scgolfpanel-brown-0;
+    $text-color-white: $color-grayscale-light-12;
+    $text-color-light: $color-grayscale-light-9;
+    $text-color-dark: $color-grayscale-dark-9;
+    $text-color-black: $color-grayscale-dark-12;
+
+// @IMPORT | FILES
+    @import "letter-spacing";
+    @import "line-height";
+    @import "lists";
+    @import "body";
+    @import "headings";
+    @import "links";
+    @import "icons";
+    @import "shadows";
+
+// @IMPORT | STYLES
+    @import "style";

@@ -1,0 +1,13 @@
+/**
+ * sass/layouts/site/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.22)
+ * @copyright 2024 (2024.01.22)
+**/
+
+// BODY BACKGROUND COLOR
+    $body-background-color: $color-grayscale-light-12;
+    
+// @IMPORT | STYLES
+    @import "style";

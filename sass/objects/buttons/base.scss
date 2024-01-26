@@ -1,0 +1,46 @@
+/**
+ * sass/objects/buttons/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.22)
+ * @copyright 2024 (2024.01.22)
+**/
+
+// GLOBAL SETTINGS
+    $button-text: $body-text;
+    $button-text-size: $body-text-size;
+    $button-text-style: none;
+    $button-font-weight: 400;
+    $button-color: $link-color;
+    $button-border-radius: 0.25rem;
+    $button-border-weight: $border-outline-weight;
+    $button-margin-vertical: $margin-sm;
+    $button-margin-horizontal: $margin-md;
+    $button-padding-vertical: $padding-xs;
+    $button-padding-horizontal: $padding-md;
+
+    // BUTTON-SOLID
+        $button-solid-color: $button-color;
+        $button-solid-text-color: $text-color-white;
+        $button-solid-hover-color: mix($link-hover-adjustment-color, $button-solid-color, $color-adjustment * $link-hover-adjustment);
+        $button-solid-hover-text-color: $text-color-white;
+
+    // BUTTON-ALT
+        $button-alt-color: $color-grayscale-light-12;
+        $button-alt-text-color: $button-color;
+        $button-alt-hover-color: $button-alt-text-color;
+        $button-alt-hover-text-color: $text-color-white;
+
+    // BUTTON-GHOST
+        $button-ghost-color: transparent;
+        $button-ghost-text-color: $button-color;
+        $button-ghost-hover-color: $button-ghost-text-color;
+        $button-ghost-hover-text-color: $text-color-white;
+    
+    // BUTTON-MOBILE
+        $button-mobile-color: $button-solid-color;
+        $button-mobile-text-color: $button-solid-text-color;
+
+// @IMPORT | STYLES
+    @import "lists";
+    @import "style";

@@ -1,0 +1,25 @@
+/**
+ * sass/variables/units/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// BASE UNIT
+    $unit-base: 1.00rem;
+
+// UNIT INCREASES
+    $unit-increase-none: 0.00;
+    $unit-increase-xxs: 0.50;
+    $unit-increase-xs: 0.75;
+    $unit-increase-sm: 1.00;
+    $unit-increase-md: 2.00;
+    $unit-increase-lg: 3.00;
+    $unit-increase-xl: 4.00;
+    $unit-increase-xxl: 6.00;
+
+// @IMPORT | FILES
+    @import "grids";
+    @import "margins";
+    @import "paddings";

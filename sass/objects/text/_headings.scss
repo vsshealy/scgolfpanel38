@@ -1,0 +1,36 @@
+/**
+ * sass/objects/text/headings.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// HEADING SETTINGS
+    $heading-text: $font-serif;
+    $heading-text-color: $text-color-dark;
+
+// HEADING BASE SIZES
+    $heading-text-size-h1: 3.00rem;
+    $heading-text-size-h2: 2.50rem;
+    $heading-text-size-h3: 2.00rem;
+    $heading-text-size-h4: 1.50rem;
+    $heading-text-size-h5: 1.25rem;
+    $heading-text-size-h6: 1.00rem;
+
+// HEADING STYLES
+    $heading-text-style: none;
+    $heading-text-height: $line-height-condensed;
+    $heading-text-spacing: $letter-spacing-normal;
+    $heading-text-margin: $margin-md;
+
+// HEADING-PRIMARY
+    $heading-primary-text: $heading-text;
+    $heading-primary-text-color: $heading-text-color;
+
+// HEADING-SECONDARY
+    $heading-secondary-text: $body-text;
+    $heading-secondary-text-color: $body-text-color;
+
+// @IMPORT | STYLES
+    @import "style-headings";

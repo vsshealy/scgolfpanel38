@@ -1,0 +1,14 @@
+/**
+ * sass/objects/shadows/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// BASE SHADOWS
+    $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+    $shadow-text: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.90);
+
+// @IMPORT | FILES
+    @import "style";

@@ -1,0 +1,18 @@
+/**
+ * sass/objects/text/body.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// BODY TEXT SETTINGS
+    $body-text: $font-sans;
+    $body-text-size: $font-size-base;
+    $body-text-color: $text-color-normal;
+    $body-text-height: $line-height-normal;
+    $body-text-spacing: $letter-spacing-normal;
+    $body-text-margin: $margin-sm;
+
+// @IMPORT | STYLES
+    @import "style-body";

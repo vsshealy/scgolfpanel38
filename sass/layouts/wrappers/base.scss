@@ -1,0 +1,14 @@
+/**
+ * sass/layouts/wrappers/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// GUTTERS
+    $body-gutter: 1.00rem;
+    $body-gutter-columns: $body-gutter * 0.50;
+
+// @IMPORT | STYLES
+    @import "style";

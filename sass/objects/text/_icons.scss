@@ -1,0 +1,14 @@
+/**
+ * sass/objects/text/icons.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// ICON SETTINGS
+    $font-icons: normal normal normal $font-size-base FontAwesome;
+    $icon-margin: $margin-none $margin-xs;
+
+// @IMPORT | STYLES
+    @import "style-icons";

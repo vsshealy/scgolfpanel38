@@ -1,0 +1,51 @@
+/**
+ * sass/objects/text/style-links.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// LINK SETTINGS
+    $text-link-color: $link-color;
+    $text-link-hover-color: $link-hover-color;
+    
+// TEXT-LINKS-ALL
+    #{$text-links-all} {
+        // GLOBAL
+            color: $text-link-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $text-link-hover-color;
+                text-decoration: none;
+            } //:HOVER
+
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //TEXT-LINKS-ALL
+
+// TEXT-LINKS
+    #{$text-links} {
+        // GLOBAL
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //TEXT-LINKS

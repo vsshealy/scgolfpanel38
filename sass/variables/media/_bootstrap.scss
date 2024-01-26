@@ -1,0 +1,15 @@
+/**
+ * sass/variables/media/bootstrap.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// BOOTSTRAP
+    $media-col-xs: "(max-width: 575px)";
+    $media-col-sm: "(min-width: 576px)";
+    $media-col-md: "(min-width: 768px)";
+    $media-col-lg: "(min-width: 992px)";
+    $media-col-xl: "(min-width: 1200px)";
+    $media-col-xxl: "(min-width: 1440px)";

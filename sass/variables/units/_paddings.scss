@@ -1,0 +1,20 @@
+/**
+ * sass/variables/units/paddings.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// PADDING-BASE
+    $padding-base: $unit-base;
+
+// PADDINGS
+    $padding-none: $padding-base * $unit-increase-none;
+    $padding-xxs: $padding-base * $unit-increase-xxs;
+    $padding-xs: $padding-base * $unit-increase-xs;
+    $padding-sm: $padding-base * $unit-increase-sm;
+    $padding-md: $padding-base * $unit-increase-md;
+    $padding-lg: $padding-base * $unit-increase-lg;
+    $padding-xl: $padding-base * $unit-increase-xl;
+    $padding-xxl: $padding-base * $unit-increase-xxl;

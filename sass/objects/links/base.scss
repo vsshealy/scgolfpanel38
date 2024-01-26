@@ -1,0 +1,20 @@
+/**
+ * sass/objects/links/base.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.01.21)
+ * @copyright 2024 (2024.01.21)
+**/
+
+// LINK COLOR
+    $link-color: $color-scgolfpanel-green-0;
+
+// LINK HOVER ADJUSTMENTS
+    $link-hover-adjustment: 3.00;
+    $link-hover-adjustment-color: $color-adjustment-dark;
+
+// LINK HOVER COLOR
+    $link-hover-color: mix($link-hover-adjustment-color, $link-color, $color-adjustment * $link-hover-adjustment);
+
+// @IMPORT | STYLES
+    @import "style";
